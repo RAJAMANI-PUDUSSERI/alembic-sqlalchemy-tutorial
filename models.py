@@ -35,8 +35,8 @@ class UserModel(Base):
 
 
 users = [
-    UserModel(first_name='Larry', last_name='David', birth=datetime(1947, 7, 2)),
-    UserModel(first_name='Jerry', last_name='Seinfeld', birth=datetime(1954, 4, 29)),
+    UserModel(first_name='Raj', last_name='Vachaparambil', birth=datetime(1987, 7, 2)),
+    UserModel(first_name='Jerome', last_name='Kizhakkedath', birth=datetime(1987, 7, 2)),
 ]
 
 session_maker = sessionmaker(bind=create_engine(DATABASE_URL))
